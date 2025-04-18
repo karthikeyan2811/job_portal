@@ -1,0 +1,74 @@
+body {
+    background-color: rgb(105, 103, 103);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#mainContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 40px;
+}
+
+.jobItems {
+    background-color: black;
+    border: 2px solid #dad9d927;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.jobItems:hover {
+    transform: scale(1.20);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);    
+}
+.items {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+
+#logo {
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.details {
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+.details span {
+    font-size: 14px;
+}
+
+#description {
+    font-size: 13px;
+    line-height: 1.4;
+    margin: 10px 0;
+}
+.buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+}
+button {
+    padding: 8px 16px;
+    border: none;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.7s ease;
+}
+
+button:hover {
+    background-color: #5fd830;
+}
