@@ -12,7 +12,7 @@ body {
 }
 
 .jobItems {
-    background-color: black;
+    background-color: red;
     border: 2px solid #dad9d927;
     padding: 20px;
     border-radius: 10px;
@@ -32,8 +32,8 @@ body {
 #logo {
     height: 100px;
     width: 100px;
+    border-radius: 100%;
     object-fit: contain;
-    border-radius: 10px;
 }
 
 .details {
