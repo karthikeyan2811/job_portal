@@ -54,6 +54,7 @@ body {
     margin: 10px 0;
 }
 .buttons {
+    background-color: gold;
     display: flex;
     gap: 10px;
     justify-content: flex-start;
